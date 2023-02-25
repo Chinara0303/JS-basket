@@ -1,0 +1,89 @@
+#navbar-area{
+    background-color: rgb(113, 113, 194);
+    padding: 15px 0;
+}
+a{text-decoration: none;}
+#navbar-area ul li a{
+    color: white;
+}
+#navbar-area .shopping-cart{
+    cursor: pointer;
+    position: relative;
+}
+#navbar-area .shopping-cart a{
+    color: white;
+    font-size: 20px;
+}
+#navbar-area .shopping-cart span{
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    font-size: 15px !important;
+}
+
+#prod-table .total{
+    margin-top: 40px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 15px 10px;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(113, 113, 194);
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+td i{
+    cursor: pointer;
+}
+.count{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+}
+.count span{
+    cursor: pointer;
+    user-select: none;
+}
+.count .reduce::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 21px;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+.count .increase::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 45px;
+    width: 1px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.total span{
+    color: rgb(113, 113, 194);
+    font-weight: bold;
+}
+
+h1{
+    color: blue;
+}
+
+.to-shopping:hover a{
+    color: white !important;
+}
